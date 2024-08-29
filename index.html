@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">Lundev</div>
+        <ul class="menu">
+            <li style="font-family:New Amsterdam, sans-serif;"><a href="#" style="text-decoration: none;" class="text-danger">Home</a></li>
+            <li style="font-family:New Amsterdam, sans-serif;"><a href="#" style="text-decoration: none;" class="text-danger">Blog</a></li>
+            <li style="font-family:New Amsterdam, sans-serif;"><a href="#" style="text-decoration: none;" class="text-danger">Info</a></li>
+        </ul>
+        <div class="search">
+            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+            </svg>
+        </div>
+    </header>
+    <!-- slider -->
+
+    <div class="slider">
+        <!-- list Items -->
+        <div class="list">
+            <div class="item active">
+                <img src="Resources/img1.jpg">
+                <div class="content">
+                    <h2>Blue Beetle</h2>
+                    <p>
+                        DC Comics - 2022 Blue Beetle
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="Resources/img2.jpg">
+                <div class="content">
+                    <h2>Jumanji: The Next Level</h2>
+                    <p>
+                        Jumanji: The Next Level Newly Realeased Movie
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="Resources/img3.jpg">
+                <div class="content">
+                    <p>design</p>
+                    <h2>Slider 03</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="Resources/img4.jpg">
+                <div class="content">
+                    <p>design</p>
+                    <h2>Slider 04</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="Resources/img5.jpg">
+                <div class="content">
+                    <p>design</p>
+                    <h2>Slider 05</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <!-- button arrows -->
+        <div class="arrows">
+            <button id="prev">
+                <
+                    </button>
+                    <button id="next">></button>
+        </div>
+        <!-- thumbnail -->
+        <div class="thumbnail">
+            <div class="item active">
+                <img src="Resources/img1.jpg">
+                <div class="content">
+                    Blue Beetle
+                </div>
+            </div>
+            <div class="item">
+                <img src="Resources/img2.jpg">
+                <div class="content">
+                    Jumangi: The Next Level
+                </div>
+            </div>
+            <div class="item">
+                <img src="Resources/img3.jpg">
+                <div class="content">
+                    Batman 2022
+                </div>
+            </div>
+            <div class="item">
+                <img src="Resources/img4.jpg">
+                <div class="content">
+                    Name Slider
+                </div>
+            </div>
+            <div class="item">
+                <img src="Resources/img5.jpg">
+                <div class="content">
+                    Name Slider
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="movies" id="movies">
+        <h2 class="heading">Opening This Week</h2>
+        <!-- Movies container  -->
+        <div class="movies-container">
+            <!-- box-1  -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="./img/m1.jpg" alt="">
+                </div>
+                <h3>Dr.Strange</h3>
+                <span>120 min | Action</span>
+            </div>
+            <!-- box-2  -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="./img/m2.jpg" alt="">
+                </div>
+                <h3>Pathan</h3>
+                <span>120 min | Action</span>
+            </div>
+            <!-- box-3  -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="./img/m3.jpg" alt="">
+                </div>
+                <h3>Batman vs Superman</h3>
+                <span>120 min | Thriller</span>
+            </div>
+            <!-- box-4  -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="./img/m4.jpg" alt="">
+                </div>
+                <h3>John Wick 2</h3>
+                <span>120 min | Action</span>
+            </div>
+            <!-- box-5  -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="./img/m5.jpg" alt="">
+                </div>
+                <h3>Aquaman</h3>
+                <span>120 min | Adventure</span>
+            </div>
+            <!-- box-6  -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="./img/m6.jpg" alt="">
+                </div>
+                <h3>Black Panther</h3>
+                <span>120 min | Thriller</span>
+            </div>
+            <!-- box-7  -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="./img/m7.jpg" alt="">
+                </div>
+                <h3>Uncharted</h3>
+                <span>120 min | Adventure</span>
+            </div>
+            <!-- box-8  -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="./img/m8.jpg" alt="">
+                </div>
+                <h3>Brahmastra</h3>
+                <span>120 min | Action</span>
+            </div>
+            <!-- box-9  -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="./img/m9.jpg" alt="">
+                </div>
+                <h3>Mortal-Engines</h3>
+                <span>120 min | Action</span>
+            </div>
+            <!-- box-10  -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="./img/m10.jpg" alt="">
+                </div>
+                <h3>UnderWorld Blood Wars</h3>
+                <span>120 min | Action</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- coming  -->
+    <section class="coming" id="coming">
+        <h2 class="heading">Coming Soon</h2>
+        <!-- coming contanier  -->
+        <div class="coming-container swiper">
+            <div class="swiper-wrapper">
+                <!-- box-1  -->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="./img/c1.jpg" alt="">
+                    </div>
+                    <h3>Ant-Man and the Wasp:Quantumania</h3>
+                </div>
+                <!-- box-2  -->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="./img/c2.jpg" alt="">
+                    </div>
+                    <h3>The Flash</h3>
+                </div>
+                <!-- box-3  -->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="./img/c3.jpg" alt="">
+                    </div>
+                    <h3>Guardians of the Galaxy Vol.3</h3>
+                </div>
+                <!-- box-4  -->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="./img/c4.jpg" alt="">
+                    </div>
+                    <h3>Shazam! Fury of the Gods</h3>
+                </div>
+                <!-- box-5  -->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="./img/c5.jpg" alt="">
+                    </div>
+                    <h3>Aquaman and the Lost Kingdom</h3>
+                </div>
+                <!-- box-6  -->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="./img/c6.jpg" alt="">
+                    </div>
+                    <h3>John Wick:Chapter 4</h3>
+                </div>
+                <!-- box-7 -->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="./img/c7.jpg" alt="">
+                    </div>
+                    <h3>Transformer rise of the beasts</h3>
+                </div>
+                <!-- box-8  -->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="./img/c8.jpg" alt="">
+                    </div>
+                    <h3>Mission: Impossible 7</h3>
+                </div>
+                <!-- box-9  -->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="./img/c9.png" alt="">
+                    </div>
+                    <h3>Deadpool 3</h3>
+                </div>
+                <!-- box-10  -->
+                <div class="swiper-slide box">
+                    <div class="box-img">
+                        <img src="./img/c10.jpg" alt="">
+                    </div>
+                    <h3>Dune: Part two</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section>
+        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@winningproducts_2024/video/7195425702760516869" data-video-id="7195425702760516869" data-embed-from="embed_page" style="max-width:605px; min-width:325px;">
+            <section> <a target="_blank" title="@winningproducts_2024" href="https://www.tiktok.com/@winningproducts_2024?refer=embed">@winningproducts_2024</a>
+                <p><a title="tiktokmademebuyit" target="_blank" href="https://www.tiktok.com/tag/tiktokmademebuyit?refer=embed">#tiktokmademebuyit</a> <a title="fup" target="_blank" href="https://www.tiktok.com/tag/fup?refer=embed">#fup</a> <a title="viral" target="_blank" href="https://www.tiktok.com/tag/viral?refer=embed">#viral</a><a title="trending" target="_blank" href="https://www.tiktok.com/tag/trending?refer=embed">#trending</a> <a title="amazonfinds" target="_blank" href="https://www.tiktok.com/tag/amazonfinds?refer=embed">#amazonfinds</a> <a title="amazonfba" target="_blank" href="https://www.tiktok.com/tag/amazonfba?refer=embed">#amazonfba</a> <a title="shopify" target="_blank" href="https://www.tiktok.com/tag/shopify?refer=embed">#shopify</a> <a title="dropshipping" target="_blank" href="https://www.tiktok.com/tag/dropshipping?refer=embed">#dropshipping</a> <a title="winningproducts" target="_blank" href="https://www.tiktok.com/tag/winningproducts?refer=embed">#winningproducts</a> <a title="2023" target="_blank" href="https://www.tiktok.com/tag/2023?refer=embed">#2023</a> <a title="trendingproducts" target="_blank" href="https://www.tiktok.com/tag/trendingproducts?refer=embed">#trendingproducts</a> </p> <a target="_blank" title="♬ original sound - winningproducts_2024" href="https://www.tiktok.com/music/original-sound-7195425738969877253?refer=embed">♬ original sound - winningproducts_2024</a>
+            </section>
+        </blockquote>
+        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@techtalk_360/video/7378294701050416416" data-video-id="7378294701050416416" data-embed-from="embed_page" style="max-width:605px; min-width:325px;">
+            <section> <a target="_blank" title="@techtalk_360" href="https://www.tiktok.com/@techtalk_360?refer=embed">@techtalk_360</a>
+                <p>new trending smart product for boys <a title="newtrendingproduct" target="_blank" href="https://www.tiktok.com/tag/newtrendingproduct?refer=embed">#newtrendingproduct</a> <a title="new??video_viral_tiktok" target="_blank" href="https://www.tiktok.com/tag/new%3F%3Fvideo_viral_tiktok?refer=embed">#new??video_viral_tiktok</a> <a title="coolproduct" target="_blank" href="https://www.tiktok.com/tag/coolproduct?refer=embed">#coolproduct</a> <a title="techproduct" target="_blank" href="https://www.tiktok.com/tag/techproduct?refer=embed">#techproduct</a> <a title="darazshopping" target="_blank" href="https://www.tiktok.com/tag/darazshopping?refer=embed">#darazshopping</a> <a title="foryou" target="_blank" href="https://www.tiktok.com/tag/foryou?refer=embed">#foryou</a> <a title="forsale" target="_blank" href="https://www.tiktok.com/tag/forsale?refer=embed">#forsale</a> <a title="newproduct" target="_blank" href="https://www.tiktok.com/tag/newproduct?refer=embed">#newproduct</a> <a title="onlineshopping" target="_blank" href="https://www.tiktok.com/tag/onlineshopping?refer=embed">#onlineshopping</a> <a title="100k" target="_blank" href="https://www.tiktok.com/tag/100k?refer=embed">#100k</a> <a title="onlineshoppingpakistan" target="_blank" href="https://www.tiktok.com/tag/onlineshoppingpakistan?refer=embed">#onlineshoppingpakistan</a> </p> <a target="_blank" title="♬ original sound - techtalk_360" href="https://www.tiktok.com/music/original-sound-7378294839886629664?refer=embed">♬ original sound - techtalk_360</a>
+            </section>
+        </blockquote>
+        <script async src="https://www.tiktok.com/embed.js"></script>
+        <script async src="https://www.tiktok.com/embed.js"></script>
+    </section> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
